@@ -1,4 +1,24 @@
 /* Custom container */
+.container{
+  margin-top: 10px;
+}
+
+@media (max-width: 767px) {
+  .navbar .nav {
+    float: none !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .navbar .nav {
+    float: none !important;
+  }
+}
+
+.navbar .nav {
+    float: right;
+  }
+
 .container-narrow {
   margin: 0 auto;
   max-width: 700px; }
